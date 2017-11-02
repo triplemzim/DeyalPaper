@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:innerRadiusRatio="4"
+            android:shape="ring"
+            android:thicknessRatio="60"
+            android:useLevel="false" >
+            <size
+                android:height="20dp"
+                android:width="20dp" />
+
+            <gradient
+                android:centerColor="#ffffff"
+                android:centerY="0.50"
+                android:endColor="#c94646"
+                android:startColor="#765b5b"
+                android:type="sweep"
+                android:useLevel="false" />
+            <padding
+                android:top="30dp"
+                android:bottom="30dp"
+                android:left="30dp"
+                android:right="30dp"
+                />
+
+        </shape>
+
+    </item>
+
+    <item>
+
+        <shape
+            android:innerRadiusRatio="4"
+            android:shape="ring"
+            android:thicknessRatio="30"
+            android:useLevel="false" >
+            <size
+                android:height="10dip"
+                android:width="10dip" />
+
+            <gradient
+                android:centerColor="#ffffff"
+                android:centerY="0.50"
+                android:endColor="#c15d5d"
+                android:startColor="#785e5e"
+                android:type="sweep"
+                android:useLevel="false" />
+            <padding
+                android:top="30dp"
+                android:bottom="30dp"
+                android:left="30dp"
+                android:right="30dp"
+                />
+        </shape>
+
+    </item>
+    <item>
+
+        <shape
+            android:innerRadiusRatio="4"
+            android:shape="ring"
+            android:thicknessRatio="60"
+            android:useLevel="false" >
+            <size
+                android:height="10dp"
+                android:width="10dp" />
+
+            <gradient
+                android:centerColor="#ffffff"
+                android:centerY="0.50"
+                android:endColor="#c15d5d"
+                android:startColor="#785e5e"
+                android:type="sweep"
+                android:useLevel="false" />
+            <padding
+                android:top="30dp"
+                android:bottom="30dp"
+                android:left="30dp"
+                android:right="30dp"
+                />
+        </shape>
+
+    </item>
+    <item>
+
+        <shape
+            android:innerRadiusRatio="4"
+            android:shape="ring"
+            android:thicknessRatio="20"
+            android:useLevel="false" >
+            <size
+                android:height="20dp"
+                android:width="20dp" />
+
+            <gradient
+                android:centerColor="#ffffff"
+                android:centerY="0.50"
+                android:endColor="#c15d5d"
+                android:startColor="#785e5e"
+                android:type="sweep"
+                android:useLevel="false" />
+            <padding
+                android:top="30dp"
+                android:bottom="30dp"
+                android:left="30dp"
+                android:right="30dp"
+                />
+        </shape>
+
+    </item>
+    <item>
+
+        <shape
+            android:innerRadiusRatio="4"
+            android:shape="ring"
+            android:thicknessRatio="60"
+            android:useLevel="false" >
+            <size
+                android:height="20dp"
+                android:width="20dp" />
+
+            <gradient
+                android:centerColor="#ffffff"
+                android:centerY="0.50"
+                android:endColor="#c15d5d"
+                android:startColor="#785e5e"
+                android:type="sweep"
+                android:useLevel="false" />
+            <padding
+                android:top="30dp"
+                android:bottom="30dp"
+                android:left="30dp"
+                android:right="30dp"
+                />
+        </shape>
+
+    </item>
+    </layer-list>

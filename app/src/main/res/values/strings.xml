@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DeyalPaper</string>
+    <string name="action_info">Information</string>
+
+    <!--Admob-->
+    <string name="interstitial_full_screen">ca-app-pub-066498932138293260/1769900428</string>
+</resources>

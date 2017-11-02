@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#433f3f">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="470dp"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="#2c2a2c"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/big_cView">
+
+        <ProgressBar
+        android:id="@+id/progressOnFragment"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="visible" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/big_iView"/>
+
+
+
+
+    </android.support.v7.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:text="Set As DeyalPaper"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="95dp"
+            android:id="@+id/Download"
+            android:theme="@style/MyButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+
+
+        <Button
+            android:layout_width="16dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:text="BACK"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Dismiss"
+            android:visibility="invisible"
+            android:clickable="false"
+            android:theme="@style/MyButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+        />
+    </RelativeLayout>
+
+
+</LinearLayout>
